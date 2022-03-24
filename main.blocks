@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="[5g`=ls`bD!r;ca6~(X5">Player</variable><variable type="KIND_SpriteKind" id=":+`k9dqd~pVk[]XS4D6f">Projectile</variable><variable type="KIND_SpriteKind" id="{$d=)*W8JA^N7lIRmzR@">Food</variable><variable type="KIND_SpriteKind" id="zCua*nqNe!/)~1=#Kfwj">Enemy</variable><variable id="x`#Mhutb|wZ%_LgF_L7X">mySprite</variable><variable id="3?U2PUl.K[VQ9$VZFx[g">item</variable></variables><comment id="RICnlhaX}9ei5ShQW`}=" data="0" x="255" y="101" h="565" w="484">8 Concepts Learned (Pick the 8 you used, delete the others):
+-Sprites
+-Sprite Position (coordinates: x and y)
+-Controller (dx) and move mySprite with buttons
+-overlap Events / sprite kind
+-"Spawning" sprites: create and on created
+-random
+-Displaying numbers (1, 2, 3) as a string ("123")
+-score and life
+-countdown
+-stay in screen and ghost
+-set image
+-sprite say
+-splash
+
+Key Features (List the Key Features You Will Need For Your Game, replace examples)
+- ex. Playable Sprite
+- ex. player can move up/down left/right
+- ex. player can collide with enemy
+- ex. enemy decreases player life</comment><block type="pxt-on-start" id="y2@28J2%l@Ycio^Hx*{c" x="10" y="10"><statement name="HANDLER"><block type="variables_set" id="=s3B7*b-b#p)}5:aCTO?"><field name="VAR" id="x`#Mhutb|wZ%_LgF_L7X">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="VYv$?pxHKM)=9qnLF7`5"><value name="img"><shadow type="screen_image_picker" id="mHStx6c?)c3hybNSq;Jq"><field name="img">img`
+. . 2 2 b b b b b . . . . . . . 
+. 2 b 4 4 4 4 4 4 b . . . . . . 
+2 2 4 4 4 4 d d 4 4 b . . . . . 
+2 b 4 4 4 4 4 4 d 4 b . . . . . 
+2 b 4 4 4 4 4 4 4 d 4 b . . . . 
+2 b 4 4 4 4 4 4 4 4 4 b . . . . 
+2 b 4 4 4 4 4 4 4 4 4 e . . . . 
+2 2 b 4 4 4 4 4 4 4 b e . . . . 
+. 2 b b b 4 4 4 b b b e . . . . 
+. . e b b b b b b b e e . . . . 
+. . . e e b 4 4 b e e e b . . . 
+. . . . . e e e e e e b d b b . 
+. . . . . . . . . . . b 1 1 1 b 
+. . . . . . . . . . . c 1 d d b 
+. . . . . . . . . . . c 1 b c . 
+. . . . . . . . . . . . c c . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"mHStx6c?)c3hybNSq;Jq"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="d{P5aW02k-.Keajt]Gbb"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
